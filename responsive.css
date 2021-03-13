@@ -16,22 +16,205 @@
    
    
    /* スマートフォン */
-   @media (max-width: 670px) {
+  @media (max-width: 670px) {
+
+    * {
+        box-sizing: border-box;
+    }
        body{
            padding: 0;
            margin: 0;
            
        }
-     .header{
-       width: 100%;
-     }
-    .top-container{
-         text-align: center;
-     }
-      .top-heading h1{
-         text-align: center;
-         font-size: 16px;
-     }
+       .header {
+        background-image: url(./images/japan-1366872_1280.1111.jpg);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        position: relative;
+    }
+    .header-container {
+        padding: 20px 10px;
+        
+    }
+    .signup-modal-wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        z-index: 100;
+        display: block;
+        position: absolute;
+      }
+      
+      .modal {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        background-color: whitesmoke;
+        
+        padding: 20px 0 40px;
+        border-radius: 10px;
+        width: 650px;
+        height: auto;
+        text-align: center;
+      }
+    
+      
+      .fa-times {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        color: rgba(128, 128, 128, 0.46);
+        cursor: pointer;
+      }
+      
+      #signup-form {
+        width: 100%;
+      }
+      
+      #signup-form h2 {
+        color: #5f5d60;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+      }
+      
+      #signup-form input {
+        width: 320px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        padding: 12px 12px;
+        border: 1px solid #d0d5d8;
+        border-radius: 5px;
+      }
+      
+      #submit-btn {
+        display: inline-block;
+        padding: 14px 140px;
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        margin: 10px auto;
+        cursor: pointer;
+      }
+      #submit-btn:hover{
+        opacity: 0.7;
+      }
+      #signup-form h3{
+         font-weight: normal;
+         font-size: 14px;
+      }
     
     
-  }
+    
+    
+      .top-wrapper {
+          height: 850px;
+      }
+      .top-container{
+          padding: 5px 10px;
+    
+      }
+      .top-heading{
+          text-align: center;
+          font-size: 16px;
+          margin: 60px 100px 80px;
+      }
+      
+      .heading{
+          margin: 0 auto;
+          border-bottom: 3px groove blue;
+          width: 298px;
+          font-size: 24px;
+          
+      }
+      .contents{
+          width: 50%;
+          margin: 0 auto;
+          margin-top: 100px;
+          
+      }
+      .contents-icon {
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 50vw;
+          display: block;
+          float: left;
+          
+          
+          margin: 0 auto;
+      }
+      
+      .text-contents{
+        width: 300px;
+        float: right;
+        
+      }
+      .boke{
+        margin:0 0 20px;
+      }
+    
+    
+      .main-wrapper{
+        height: 880px;
+      }
+      .main-container{
+        padding: 10px 20px;
+    
+      }
+      .main-heading{
+        margin: 0 auto;
+          border-bottom: 3px groove blue;
+          width: 320px;
+          font-size: 24px;
+          margin-top: 60px;
+          margin-bottom: 50px;
+      }
+      li {
+        list-style: none;
+        margin: auto;
+        width: 200px;
+        margin-top: 20px;
+      }
+      .btn {
+        text-align: center;
+        background-color: cornflowerblue;
+        color: white;
+        border-radius: 5px;
+        margin: auto;
+        width: 200px;
+        display: block;
+        padding: 5px 10px;
+        margin-top: 60px;
+        cursor: pointer;
+        
+      }
+      .btn:hover {
+        opacity: 0.7;
+      }
+      
+      .main-contents h2{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+      }
+    
+      .gazou{
+        width: 70vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 360px;
+        margin: auto;
+        display: block;
+      }
+    
+    
+    
+    
+    
+    
+   }
