@@ -27,6 +27,10 @@
     .top-container{
          text-align: center;
      }
+      .top-heading{
+         text-align: center;
+         font-size: 22px;
+     }
     
     
   }
