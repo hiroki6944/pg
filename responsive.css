@@ -21,10 +21,9 @@
     }
   
     
-    .modal{
-      display: block;
-      width: 50%;
+   .signup-modal-wrapper{
+      padding: 50px 2vw 40px;
+      
     }
-    
     
    }
