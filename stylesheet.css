@@ -139,7 +139,9 @@ body {
   .boke{
     margin:0 0 20px;
   }
-
+.clear{
+    clear: left;
+  }
 
   .main-wrapper{
     height: 880px;
