@@ -16,8 +16,8 @@ body {
     position: relative;
   width: 100vw;
 }
-.header-container {
-    padding: 20px 10px;
+.container {
+    padding: 10px 20px;
     width: 100%;
 }
 .signup-modal-wrapper {
