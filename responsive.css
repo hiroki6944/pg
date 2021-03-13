@@ -15,7 +15,14 @@
   @media (max-width: 670px) {
 
    
-    
+    body{
+        padding: 0;
+        margin: 0;
+    }
+  .header{
+    width: 100%;
+  }
+ 
     
     
     
