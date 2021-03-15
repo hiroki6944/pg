@@ -1,26 +1,186 @@
-/* タブレット */
-
-@media (max-width: 1000px) {
+/* モバイルS */
+@media screen and (min-width: 320px) and (max-width:375px) {
     body{
         padding: 0;
         margin: 0;
+    }
+    .header-left{
+     font-size: 23px;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    .top-wrapper h1{
+        font-size: 18px;
+    }
+    .heading {
+        font-size: 7px;
+        margin-top: 40px;
+        width: 47%;
+    }
+    .contents-icon{
+        width: 100px;
+        height: 100px;
     }
     
-   }
-   
-   
-   
-   
-   /* スマートフォン */
-  @media (max-width: 670px) {
+    .text-contents h2{
+       width: 60%;
+        font-size:14px ;
+    }
+    .text-contents {
+        width: 80%;
+    }
+
+
+    .main-heading {
+        width: 49%;
+        font-size: 7px;
+    }
+    .main-contents li{
+        font-size: 9px;
+        
+    }
+    .main-contents ul{
+        margin-bottom: 40px;
+    }
+    .main-contents h2{
+        width: 70%;
+     margin: auto;
+     font-size: 20px;
+    }
+    .gazou{
+        width: 70%;
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
 
    
+}
+
+
+
+
+/* モバイルM */
+@media screen and (min-width:375px) and (max-width:425px) {
     body{
         padding: 0;
         margin: 0;
     }
-  
-  .header h1{
-      font-size: 20px;
-      }
-   }
+    .header-left{
+        font-size: 27px;
+       text-align: center;
+       margin-top: 30px;
+    }
+    .top-wrapper h1{
+        font-size: 18px;
+    }
+    .heading {
+        font-size: 7px;
+        margin-top: 40px;
+        width: 40%;
+    }
+    .contents-icon{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .text-contents h2{
+       width: 60%;
+        font-size:14px ;
+    }
+    .text-contents {
+        width: 80%;
+    }
+
+
+    .main-heading {
+        width: 40%;
+        font-size: 7px;
+    }
+    .main-contents li{
+        font-size: 9px;
+        
+    }
+    .main-contents ul{
+        margin-bottom: 40px;
+    }
+    .main-contents h2{
+        width: 70%;
+     margin: auto;
+     font-size: 20px;
+    }
+    .gazou{
+        width: 70%;
+    }
+   
+    .footer p{
+        font-size: 13px;
+    }
+}
+
+
+/* モバイルL */
+@media screen and (min-width:425px) and (max-width:768px)  {
+    .top-wrapper h1{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 12px;
+        width: 40%;
+    }
+    .text-contents {
+        width: 70%;
+    }
+    .text-contents h2{
+        width: 83%;
+    }
+    .main-heading{
+        font-size:11px ;
+        width: 41%;
+    }
+    .main-contents h2{
+        font-size: 17px;
+        
+    }
+    .gazou{
+        width: 70%;
+    }
+}
+
+/* タブレット　*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .heading{
+        width: 32%;
+        font-size: 18px;
+    }
+
+    .contents-icon{
+        width: 140px;
+        height: 140px;
+    }
+    .text-contents{
+        width: 70%;
+    }
+
+    .main-heading{
+        font-size: 18px;
+        width: 33%;
+    }
+    .main-contents li{
+        font-size: 14px;
+    }
+    .main-contents h2{
+        font-size: 20px;
+    }
+    .gazou{
+        width: 45%;
+    }
+}
+
+
+
+
+
+
