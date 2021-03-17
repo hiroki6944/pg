@@ -45,7 +45,7 @@
     }
     .main-contents h2{
         width: 70%;
-     margin: auto;
+     margin:30px auto;
      font-size: 20px;
     }
     .gazou{
@@ -56,7 +56,16 @@
         font-size: 10px;
     }
 
-   
+    .btn {
+        font-size: 8px;
+        width: 30%;
+    }
+    .modal{
+        top: 20%;
+        left: 1%;
+        width: 370px;
+        transform: scale(0.6,0.6);
+    }
 }
 
 
@@ -108,8 +117,9 @@
     }
     .main-contents h2{
         width: 70%;
-     margin: auto;
+     margin: 40px auto;
      font-size: 20px;
+     
     }
     .gazou{
         width: 70%;
@@ -117,6 +127,15 @@
    
     .footer p{
         font-size: 13px;
+    }
+    .btn{
+        width: 40%;
+    }
+    .modal{
+        top: 20%;
+        left: 1%;
+        width: 370px;
+        transform: scale(0.6,0.6);
     }
 }
 
@@ -142,10 +161,19 @@
     }
     .main-contents h2{
         font-size: 17px;
-        
+        margin-top: 90px;
     }
     .gazou{
         width: 70%;
+    }
+    .btn{
+        width: 40%;
+    }
+    .modal{
+        top: 20%;
+        left: 8%;
+        width: 370px;
+        transform: scale(0.6,0.6);
     }
 }
 
@@ -176,6 +204,15 @@
     }
     .gazou{
         width: 45%;
+    }
+    .btn{
+        width: 30%;
+    }
+    .modal{
+        top: 20%;
+        left: 25%;
+        width: 370px;
+        transform: scale(0.8,0.8);
     }
 }
 
