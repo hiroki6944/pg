@@ -38,7 +38,7 @@ body {
   }
   
   .heading{
-      margin: 0 auto;
+      margin: 80px auto 0;
       border-bottom: 3px groove blue;
       width: 21%;
       font-size: 24px;
@@ -103,6 +103,16 @@ body {
     margin-bottom: 50px;
     
   }
+  .btn{
+    margin: auto;
+    background-color: dodgerblue;
+    padding: 5px 10px;
+    width: 10%;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
 
   .gazou{
     width: 45%;
@@ -128,7 +138,86 @@ body {
     margin-top: 27px;
   }
   
+  .signup-modal-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+   
+    
+  }
+  
+  .modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: whitesmoke;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    
+    
+  }
 
+  
+
+  
+  .fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+  
+  #signup-form {
+    width: 100%;
+  }
+  
+  #signup-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  
+  #signup-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+  }
+  
+  #submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: turquoise;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  #submit-btn:hover{
+    opacity: 0.7;
+  }
+  .login-modal-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+  }
 
 
   
