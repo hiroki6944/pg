@@ -171,7 +171,7 @@
     }
     .modal{
         top: 20%;
-        left: 8%;
+        left: 12%;
         width: 370px;
         transform: scale(0.6,0.6);
     }
@@ -210,7 +210,7 @@
     }
     .modal{
         top: 20%;
-        left: 30%;
+        left: 25%;
         width: 370px;
         transform: scale(0.8,0.8);
     }
