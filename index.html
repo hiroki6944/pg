@@ -25,7 +25,7 @@
         <div class="container">
             <h1>Hot spring Channelは、お気に入りの温泉を世界中の仲間と共有し、温泉好き同士の繋がりを深めることが出来るサービスです。</h1>
             
-           
+            <input type="submit" class="btn" id="btnes" value="ログインする">
                 <div class="top-contents">
                     <div class="heading">Hot spring Channelの魅力</div>
                     <div class="contents">
@@ -71,11 +71,51 @@
                     <li>③　メッセージ交換</li>
                 </ul>
                 
+                <input type="submit" class="btn" id="btns" value="今すぐ登録する">
                 <h2>あなたの出会いをもっと素敵なものに</h2>
                 <img class="gazou" src="images/couple-498457_1280.jpg">
             </div>
         </div>
     </div>
+
+
+    <div class="signup-modal-wrapper" id="signup-modal">
+        <div class="modal">
+          <div id="close-modal">
+            <button class="modal-close">×</button>
+          </div>
+          <div id="signup-form">
+            <h2>Emailで新規登録</h2>
+            <form action="#">
+              <input class="form-control" type="name" placeholder="名前">
+              <input class="form-control" type="text" placeholder="メールアドレス">
+              <input class="form-control" type="password" placeholder="パスワード">
+              <input class="form-control" type="password" placeholder="パスワードの確認">
+              <div id="submit-btn">新規登録</div>
+            </form>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="login-modal-wrapper" id="login-modal">
+            <div class="modal">
+              <div id="close-modal">
+                <button class="modal-close">×</button>
+              </div>
+              <div id="signup-form">
+                <h2>Login</h2>
+                <form action="#">
+                  
+                  <input class="form-control" type="text" placeholder="メールアドレス">
+                  <input class="form-control" type="password" placeholder="パスワード">
+                  
+                  <div id="submit-btn">Login</div>
+                </form>
+              </div>
+            </div>
+            </div>
+
 
 
 
@@ -101,3 +141,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+  
